@@ -2,7 +2,7 @@ name: python program for addition
 on: push
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: Github
 
     strategy:
       matrix:
